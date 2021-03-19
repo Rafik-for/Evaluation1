@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 100vh;
+}
+
+header{
+#logo {
+  margin: 20px 20px 20px 50px;
+}
+
+#entete{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #404064;
+  color: #FFFFFF;
+}
+}
+
+main{
+
+  .centre{
+    background-color: #12a512;
+    height: 50vh;
+    display: flex;
+   & img{
+     align-items: center;
+
+
+    }
+    .resume {
+      color: #FFFFFF;
+    }
+    p{
+      display: block;
+      flex-direction: row;
+    }
+  }
+}
+
